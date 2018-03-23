@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 ">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-1.12.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/mobile.js"></script>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/style3.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <title>Macerati Korea</title>
+
+</head>
+<body>
+    <div id="wrap">
+        <header>
+            <div id="headerIn">
+                <h1 class="logo"><a href="index.html"><img src="img/logo.png" alt=""></a></h1>  <!-- 로고 -->
+                <div class="navi"> <!-- 오픈메뉴버튼 -->
+                    <div class="model"><a href="#">Models</a></div>
+                    <div class="menu"><a href="#">Menu</a></div>
+                </div>                            
+            </div>
+            <!-- tablet -->
+            <div id="tab">
+                <h1 class="tlogo"><a href="index.html"><img src="img/logo2.png" alt="로고"></a></h1>
+                <div class="line2"></div>
+                <div class="navi1"> <!-- 오픈메뉴버튼 -->
+                    <div class="bg1"></div>
+                    <div class="model3"><a href="#">Models</a>
+                        <ul class="model4">
+                                <li>
+                                    <a href="#">Ghibli</a>                               
+                                </li>
+                                <li>
+                                    <a href="#">Quattroforte</a>                                                
+                                </li>
+                                <li>
+                                    <a href="#">Lavente</a>
+                                </li>
+                                <li>
+                                    <a href="#">GranTurismo</a>                                                
+                                </li>                   
+                            </ul>
+                    </div>
+                    <div class="menu3"><a href="#">Menu</a>
+                        <ul class="menu4">
+                            <li><a href="#">마세라티 인증 중고차</a></li>
+                            <li><a href="#">모터스포츠, 이벤트 및 클럽</a></li>
+                            <li><a href="#">Service & Accessories</a></li>
+                            <li><a href="#">Search</a></li>                    
+                        </ul>                    
+                    </div>
+                </div>
+            </div>
+            <!-- pc용 -->
+            <div id="pc">
+                <h1><a href="macerati.html"><img src="img/logo2.jpg" alt="로고"></a></h1>
+            </div>            
+            <div class="line"></div>           
+            <div class="ban">
+                <div class="bo">
+                    <div class="search1">
+                        <input type="text" name="search1" id="search1" placeholder="센터찾기">
+                    </div>
+                    <div class="search2">
+                        <input type="text" name="search2" id="search2" placeholder="검색하기">
+                    </div> 
+                    <div class="ban1">
+                        <p><a href="https://www.maserati.com/maserati/kr/ko/shopping-tools">마세라티 만들기</a></p>
+                    </div>
+                </div>
+                <div class="bo2">
+                    <div class="ban2">
+                        <p><a href="https://www.maserati.com/maserati/kr/ko/maserati-contact-us">문의 및 서비스</a></p>
+                    </div>           
+                </div>                   
+            </div>
+
+            
+            <nav id="gnb">
+                <ul class="model2">
+                    <li><img src="img/ghi2.png" alt="">
+                        <a href="#">Ghibli<br>101,200,000KRW  부터</a>                               
+                    </li>
+                    <li><img src="img/qua2.png" alt="">
+                        <a href="#">Quattroforte<br>145,200,000KRW  부터</a>
+                                            
+                    </li>
+                    <li><img src="img/lav2.png" alt="">
+                        <a href="#">Lavente<br>155,200,000KRW  부터</a>
+                                            
+                    </li>
+                    <li><img src="img/gra2.png" alt="">
+                        <a href="#">GranTurismo<br>255,200,000KRW  부터</a>
+                                            
+                    </li>                   
+                </ul>
+                <ul class="menu2">
+                    <li><a href="#">마세라티 인증 중고차</a></li>
+                    <li><a href="#">모터스포츠, 이벤트 및 클럽</a></li>
+                    <li><a href="#">Service & Accessories</a></li>
+                    <li><a href="#">Search</a></li>                    
+                </ul>
+            </nav> 
+            <!-- tab -->
+         
+            <!-- pc -->
+            <nav id="gnb1">
+                <div class="bg"></div>
+                    <ul>
+                        <li><a href="#" class="mo">Models</a>
+                            <ul class="depth2">
+                                <li><p class="ghi"><a href="#">Ghibli</a><img src="img/ghi0.png" alt=""></p>
+                                    <ul class="depth111">   
+                                        <li class="back111"><a href="#"><img src="img/back111.png" alt=""></a></li>                                     
+                                        <li class="back11"><a href="#"><img src="img/back11.png" alt=""></a></li>
+                                        <li class="back1"><a href="#"><img src="img/back1.png" alt=""></a></li>                                        
+                                    </ul>
+                                </li>
+                               
+                                <li><p class="qua"><a href="#">Quattroforte</a><img src="img/qua0.png" alt=""></p>
+                                    <ul class="depth222">
+                                        <li class="back111"><a href="#"><img src="img/back222.png" alt=""></a></li>
+                                        <li class="back11"><a href="#"><img src="img/back22.png" alt=""></a></li>
+                                        <li class="back1"><a href="#"><img src="img/back2.png" alt=""></a></li>
+                                    </ul>
+                                </li>
+                                
+                                <li><p class="lav"><a href="#">Lavente</a><img src="img/lav0.png" alt=""></p>
+                                    <ul class="depth333">
+                                        <li class="back111"><a href="#"><img src="img/back333.png" alt=""></a></li>
+                                        <li class="back11"><a href="#"><img src="img/back33.png" alt=""></a></li>
+                                        <li class="back1"><a href="#"><img src="img/back3.png" alt=""></a></li>
+                                    </ul>
+                                </li>
+                                
+                                <li><p class="gra"><a href="#">GranTurismo</a><img src="img/gra0.png" alt=""></p>
+                                    <ul class="depth444">
+                                        <li class="back111"><a href="#"><img src="img/back444.png" alt=""></a></li>
+                                        <li class="back11"><a href="#"><img src="img/back44.png" alt=""></a></li>
+                                        <li class="back1"><a href="#"><img src="img/back4.png" alt=""></a></li>                              
+                                    </ul>
+                                </li>                            
+                            </ul>    
+                        </li>
+                    
+                        <li><a href="#" class="br">Brand</a>
+                            <ul class="depth22">
+                                <li><a href="#">Image Gallery</a></li>                            
+                            </ul>
+                        </li>
+                     
+                        <li><a href="#" class="ts">Tool&Service</a>
+                            <ul class="depth33">
+                                <li><a href="#">Build Your Own</a></li>
+                                <li><a href="#">Dealer Location</a></li>
+                                <li><a href="#">Test Drive</a></li>
+                                <li><a href="#">Service&Aftersale</a></li>
+                                <li><a href="#">Contact US</a></li>
+                            </ul>
+                        </li>
+                       
+                        <li><a href="#" class="ne">News</a>
+                            <ul class="depth44">
+                                <li><a href="#">Latest News</a></li>
+                                <li><a href="#">Event</a></li>                         
+                            </ul>
+                        </li>
+    
+                        <li><a href="#" class="td">TestDrive</a>
+                            <ul class="depth55">
+                                <li><a href="#">Test Application</a></li>
+                                <li><a href="#">Test Review</a></li>                        
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>         
+
+        </header>
+        <main>
+            <div id="mainVisual">
+                <ul class="slider">
+                    <li><a href="#">                       
+                        <img src="img/5.jpg" alt="">
+                    </a></li>
+                    <li><a href="#">                        
+                        <img src="img/4.jpg" alt="">
+                    </a></li>
+                    <li><a href="#">                        
+                        <img src="img/3.jpg" alt="">
+                    </a></li>
+                    <li><a href="#">                       
+                        <img src="img/2.jpg" alt="">
+                    </a></li>
+                </ul>                
+            </div>
+
+            <div class="pageone">
+                <p>Models</p>
+            </div>
+            <!-- moblie -->
+            <div id="one">
+                <ul>
+                    <li><a href="#"><img src="img/ghi.png" alt=""></a></li>
+                    <li><a href="#"><img src="img/qua.png" alt=""></a></li>
+                    <li><a href="#"><img src="img/lav.png" alt=""></a></li>
+                    <li><a href="#"><img src="img/gra.png" alt=""></a></li>                   
+                </ul>
+            </div>
+            <!-- pc -->
+            <div id="one1">
+                    <div class="sum1">
+                        <div class="over">
+                            <p class="ghibli"><a href="#">GHIBLI</a></p>
+                            <p class="krw">  102,000,000 KRW부터</p>                
+                            <p class="model0"><a href="#">차량정보</a></p>                
+                            <p class="mace"><a href="#">나만의 마세라티 만들기</a></p>
+                      
+                        </div> 
+                    </div>
+                    <div class="sum2">
+                        <div class="over">                
+                            <p class="quattro"><a href="#">QUATTROFORTE</a></p>
+                            <p class="krw">  145,200,000 KRW부터</p>             
+                            <p class="model0"><a href="#">차량정보</a></p>               
+                            <p class="mace"><a href="#">나만의 마세라티 만들기</a></p>                
+                        </div> 
+                    </div>
+                    <div class="sum3">
+                        <div class="over">              
+                            <p class="lavente"><a href="#">LAVENTE</a></p>
+                            <p class="krw">  155,200,000 KRW부터</p>              
+                            <p class="model0"><a href="#">차량정보</a></p>               
+                            <p class="mace"><a href="#">나만의 마세라티 만들기</a></p>                
+                        </div> 
+                    </div>
+                    <div class="sum4">
+                        <div class="over">               
+                            <p class="gran"><a href="#">GRAN TURISMO</a></p>
+                            <p class="krw">  255,200,000 KRW부터</p>               
+                            <p class="model0"><a href="#">차량정보</a></p>              
+                            <p class="mace"><a href="#">나만의 마세라티 만들기</a></p>                
+                        </div> 
+                    </div> 
+                </div>
+            <div id="choice3">
+                <select class="selbox3" onchange="setSelectText('searchSubCate',this)">
+                    <option value="show111">GHIBLI</option>
+                    <option value="show222">QUATTROFORTE</option>
+                    <option value="show333">LAVENTE</option>
+                    <option value="show444">GRAN TURISMO</option>  
+                </select>
+                <div class="showpic3">
+                    <div id="show111" class="m">
+                        <a href="#"><img src="img/ghi.png" alt=""></a>                       
+                    </div>
+                    <div id="show222" class="m hp">
+                        <a href="#"><img src="img/qua.png" alt=""></a>                        
+                    </div>
+                    <div id="show333" class="m hp">
+                        <a href="#"><img src="img/lav.png" alt=""></a>                        
+                    </div>
+                    <div id="show444" class="m hp">
+                        <a href="#"><img src="img/gra.png" alt=""></a>                        
+                    </div>                    
+                </div>
+            </div>
+
+            <div class="pagetwo">
+                <p>Build your Macerati</p>
+            </div>
+            <div id="choice">
+                <select class="selbox" onchange="setSelectText('searchSubCate',this)">
+                    <option value="show1">GHIBLI</option>
+                    <option value="show2">QUATTROFORTE</option>
+                    <option value="show3">LAVENTE</option>
+                    <option value="show4">GRAN TURISMO</option>  
+                </select>
+                <div class="showpic">
+                    <div id="show1" class="mm">
+                        <img src="img/ghi1.png" alt="">                        
+                    </div>
+                    <div id="show2" class="mm">
+                        <img src="img/qua1.png" alt="">                        
+                    </div>
+                    <div id="show3" class="mm">
+                        <img src="img/lav1.png" alt="">                        
+                    </div>
+                    <div id="show4" class="mm">
+                        <img src="img/gra1.png" alt="">                        
+                    </div>                    
+                </div>
+            </div>
+            <div class="build">
+                <ul>
+                    <li>
+                        <a href="#"><img src="img/ghi1.png" alt=""></a>
+                        <p><a href="#">GHIBLI</a></p>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/qua1.png" alt=""></a>
+                        <p><a href="#">QUATTROFORTE</a></p>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/lav1.png" alt=""></a>
+                        <p><a href="#">LAVENTE</a></p>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/gra1.png" alt=""></a>
+                        <p><a href="#">GRAN TURISMO</a></p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="pagethr">
+                <p>Shopping Tools</p>
+            </div>
+            <div class="thr">
+                <div class="ba1">
+                    <img src="img/ba1.png" alt="">
+                </div>
+                <div class="ba2">
+                    <img src="img/ba2.png" alt="">
+                    <img src="img/ba3.png" alt="">
+                </div>
+            </div>
+            <!-- pc -->
+                <div class="pc1">
+                        <div id="three">
+                            <div class="sum5">
+                                <div>
+                                    <p class="page3p1"><a href="#">마세라티 모델 자세히 보기</a></p>
+                                </div>
+                            </div>
+                            <div class="sum6">
+                                <div>
+                                    <p class="page3p2"><a href="#">마세라티 센터찾기</a></p>
+                                </div>
+                            </div>
+                                <div class="sum7">
+                                <div>
+                                    <p class="page3p2"><a href="#">마세라티 파이넨셜 서비스</a></p>
+                                </div>
+                            </div>
+                            <div class="sum8">
+                                <div>
+                                    <p class="page3p2"><a href="#">마세라티 익스클루시브</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    
+                </div>
+
+            <div class="pagefour">
+                <p>Macerati Social</p>
+                <div class="soc">
+                    <div class="sobox1">
+                        <a href="#">
+                        <img src="img/111.png" alt="">
+                       
+                        <img src="img/333.png" alt="">
+                        <img src="img/444.png" alt="">
+                        </a>
+                    </div>
+                    <div class="sobox2">
+                        <a href="#">
+                        <img src="img/222.png" alt="">
+                        <img src="img/666.png" alt="">
+                        <img src="img/888.png" alt="">
+                        </a>
+                    </div>                    
+                </div>
+                <div class="load">
+                        <p><a href="#">> load more</a></p>
+                </div>
+            </div>
+            <!-- pc -->
+            <div id="four">
+                <div id="event">
+                    <div id="pic1">
+                        <div class="big1">
+                            <a href="#"><img src="img/111.png" alt=""></a>
+                        </div>
+                        <div class="big2">
+                            <a href="#"><img src="img/222.png" alt=""></a>
+                        </div>
+                        <div class="big2">
+                            <a href="#"><img src="img/333.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div id="pic2">
+                        <div class="big1">
+                            <a href="#"><img src="img/444.png" alt=""></a>
+                        </div>
+                        <div class="big1">
+                            <a href="#"><img src="img/555.png" alt=""></a>
+                        </div>
+                        <div class="movie1">
+                            <iframe width="410" height="220" src="https://www.youtube.com/embed/sOrGzKZBYgU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div id="pic3">
+                        <div class="movie2">
+                            <iframe width="410" height="220" src="https://www.youtube.com/embed/KqslCdUoulI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        </div>
+                        <div class="big2">
+                            <a href="#"><img src="img/666.png" alt=""></a>
+                        </div>
+                        <div class="big2">
+                            <a href="#"><img src="img/777.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>  
+                <div class="box">
+                    <p><a href="#">> load more</a></p>
+                </div>                 
+            </div>
+
+            <div class="pagefiv">
+                <p>Discover</p>
+            </div>
+            <div id="choice2">
+                    <select class="selbox4" onchange="setSelectText('searchSubCate',this)">
+                            <option value="show11">Macerati Excliusive Manufaktur.</option>
+                            <option value="show22">The best routes in the world.</option>
+                            <option value="show33">Macerati Financial Services.</option>
+                            <option value="show44">Macerati Driver`s Selection.</option>  
+                    </select>
+                    <div class="showpic2">
+                        <div id="show11" class="mmm">
+                            <img src="img/d3.png" alt="">                        
+                        </div>
+                        <div id="show22" class="mmm hp">
+                            <img src="img/d2.png" alt="">                        
+                        </div>
+                        <div id="show33" class="mmm hp">
+                            <img src="img/d1.png" alt="">                        
+                        </div>
+                        <div id="show44" class="mmm hp">
+                            <img src="img/d4.png" alt="">                        
+                        </div>                    
+                    </div>   
+            </div>
+            <!-- pc -->
+            <div id="five">
+                <div class="sum9">
+                </div>
+                <div class="sum10">                    
+                </div>
+                <div class="sum11">                    
+                </div>
+                <div class="sum12">                    
+                </div>
+                <div class="link">
+                    <p class="fo1"><a href="#">Macerati Excliusive Manufaktur.</a></p>
+                    <p class="fo2"><a href="#">The best routes in the world.</a></p>
+                    <p class="fo3"><a href="#">Macerati Financial Service.</a></p>
+                    <p class="fo4"><a href="#">Macerati Driver`s Seletion.</a></p>
+                </div>
+            </div>
+            <!-- tablet -->
+            <div class="ta">             
+                <a href="#"><img src="img/2222.png" alt=""></a>
+                <a href="#"><img src="img/3333.png" alt=""></a>
+            </div>  
+        </main>
+
+        <footer>
+            <nav id="fnav">
+                <ul>
+                    <li>
+                        <a href="#">Build & Find</a>
+                        <ul class="fdepth2">
+                            <li>
+                                <address>
+                                    나만의 마세라티 만들기
+                                    <br> 마세라티 인증 중고차 찾기
+                                    <br> 마세라티 센터 찾기                                                                        
+                                </address>
+                            </li>
+                        </ul>
+                    </li>                   
+                    <li>
+                        <a href="#">Behind the Scenes</a>
+                        <ul class="fdepth2">
+                            <li>
+                                <address>
+                                    Passion Motosports
+                                    <br> Driving 
+                                    <br> Macerati Classic                                    
+                                </address>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Online Service</a>
+                        <ul class="fdepth2">
+                            <li>
+                                <address>
+                                    Macerati Financial Services                                                                       
+                                </address>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Macerati Company</a>
+                        <ul class="fdepth2">
+                            <li>
+                                <address>
+                                    At a Glance
+                                    <br> Responsibility
+                                    <br> Contact & Information 
+                                    <br> Christophorus - The Macerati Magazine                                   
+                                </address>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <nav id="footerin">
+                <ul>
+                    <li>
+                        <a href="#">Build & Find</a>
+                        <a href="#">Online Service</a>
+                        <a href="#">Behind the Scenes</a>
+                        <a href="#">Macerati Company</a>
+                    </li>
+                    <nav id="depth4">
+                        <ul>
+                            <li>
+                                <a href="#">나만의 마세라티 만들기</a>
+                                <a href="#">마세라티 인증 중고차 찾기</a>
+                                <a href="#">마세라티 센터 찾기</a>
+                            </li>
+                            <li>
+                                <a href="#">Macerati Financial</a>                             
+                            </li>
+                            <li>
+                                <a href="#">Passion Motorsports</a>
+                                <a href="#">드라이빙 체험</a>
+                                <a href="#">Macerati Classic</a>
+                            </li>
+                            <li>
+                                <a href="#">At a Glance</a>
+                                <a href="#">Responsibility</a>
+                                <a href="#">Jobs & Careers</a>
+                                <a href="#">Contact & Information</a>
+                                <a href="#">The Macerati Magazine</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </ul>
+                <div id="fsns">
+                    <div class="share">
+                        <img src="img/share.png" alt="">
+                        <a href="">페이지추천</a>
+                    </div>
+                    <div class="fsns">
+                        <p>Connect with Macerati</p>
+                        <ul>
+                            <li><a href="#"><img src="img/face.png" alt=""></a></li>
+                            <li><a href="#"><img src="img/goo.png" alt=""></a></li>
+                            <li><a href="#"><img src="img/mail.png" alt=""></a></li>
+                            <li><a href="#"><img src="img/twi.png" alt=""></a></li>
+                            <li><a href="#"><img src="img/in.png" alt=""></a></li>
+                            <li><a href="#"><img src="img/i.png" alt=""></a></li>
+                            <li><a href="#"><img src="img/p.png" alt=""></a></li>                            
+                        </ul>
+                    </div>                      
+                </div>
+            </nav>
+            <div class="f1">
+                <div class="box2">               
+                <div class="sharem">
+                    <img src="img/share.png" alt="">
+                    <a href="">페이지추천</a>
+                </div>
+                </div>
+                <div class="fsnsm">                        
+                    <ul>
+                        <li><a href="#"><img src="img/face.png" alt=""></a></li>
+                        <li><a href="#"><img src="img/goo.png" alt=""></a></li>
+                        <li><a href="#"><img src="img/mail.png" alt=""></a></li>
+                        <li><a href="#"><img src="img/twi.png" alt=""></a></li>
+                        <li><a href="#"><img src="img/in.png" alt=""></a></li>
+                        <li><a href="#"><img src="img/i.png" alt=""></a></li>
+                        <li><a href="#"><img src="img/p.png" alt=""></a></li>                            
+                    </ul>
+                </div>   
+                <div class="f2">
+                    <div class="wi">
+                        <p class="world">국가변경 : </p>
+                        <div class="sjfq">
+                            <div class="wl">
+                                <div class="s1">
+                                    <select class="selbox1" onchange="setSelectText('searchSubCate',this)">
+                                        <option value="city" selected>지역을 선택하여 주십시오</option>
+                                        <option value="city1">North America</option>
+                                        <option value="city2">Latin America</option>
+                                        <option value="city3">Europe</option>
+                                        <option value="city4">Middle East</option>
+                                        <option value="city5">Africa</option>
+                                        <option value="city6">Asia</option>
+                                        <option value="city7">Oceania</option>                   
+                                    </select>
+                                </div>
+                            </div>
+                        <div class="rnrrk">
+                            <div class="s2">                                    
+                                <div id="city" class="hs">
+                                    <select class="selbox2" onchange="setSelectText('searchSubCate',this)">
+                                        <option value="city" selected>국가를 선택하여 주십시오</option>
+                                    </select>
+                                </div>
+                                        
+                                <div id="city1" class="hs">
+                                    <select class="selbox2" onchange="setSelectText('searchSubCate',this)">
+                                        <option selected>국가를 선택하여 주십시오</option>
+                                        <option value="ca" >Canada</option>
+                                        <option value="us" >USA</option>
+                                        <option value="me" >Mexico</option>
+                                    </select>
+                                </div>                
+                        
+                                <div id="city2" class="hs">
+                                    <select class="selbox2" onchange="setSelectText('searchSubCate',this)">
+                                        <option selected>국가를 선택하여 주십시오</option>
+                                        <option value="ar" >Argentina</option>
+                                        <option value="bo" >Bolivia</option>
+                                        <option value="bra" >Brazil</option>
+                                        <option value="ch" >Chile</option>
+                                        <option value="co" >Colombia</option>
+                                        <option value="cos" >Costa Rica</option>
+                                        <option value="ec" >Ecuador</option>
+                                        <option value="pa" >Paraguay</option>
+                                        <option value="pe" >Peru</option>
+                                        <option value="ur" >Uruguay</option>
+                                        <option value="ot" >Other countries</option>
+                                    </select>
+                                </div>
+                        
+                                <div id="city3" class="hs">
+                                    <select class="selbox2" onchange="setSelectText('searchSubCate',this)">
+                                        <option selected>국가를 선택하여 주십시오</option>
+                                        <option value="kj" >Austria</option>
+                                        <option value="kj" >Belgium</option>
+                                        <option value="kj" >Bulgaria</option>
+                                        <option value="kj" >Croatia</option>
+                                        <option value="kj" >Czech Republic</option>
+                                        <option value="kj" >Denmark</option>
+                                        <option value="kj" >Finland</option>
+                                        <option value="kj" >France</option>
+                                        <option value="kj" >Germany</option>
+                                        <option value="kj" >Greece</option>
+                                        <option value="kj" >Hungary</option>
+                                        <option value="kj" >Italy</option>
+                                        <option value="kj" >Netherlands</option>
+                                        <option value="kj" >Norway</option>
+                                        <option value="kj" >Poland</option>
+                                        <option value="kj" >Portugal</option>
+                                        <option value="kj" >Russia</option>
+                                        <option value="kj" >Romania</option>
+                                        <option value="kj" >Serbia</option>
+                                        <option value="kj" >Spain</option>
+                                        <option value="kj" >Sweden</option>
+                                        <option value="kj" >Switzerland</option>
+                                        <option value="kj" >Other countries</option>
+                                    </select>
+                                </div>
+                        
+                                <div id="city4" class="hs">
+                                    <select class="selbox2" onchange="setSelectText('searchSubCate',this)">
+                                        <option selected>국가를 선택하여 주십시오</option>
+                                        <option value="jj" >Abu Dhabi</option>
+                                        <option value="jj" >Bahrain</option>
+                                        <option value="jj" >Dubai</option>
+                                        <option value="jj" >Israel</option>
+                                        <option value="jj" >Jordan</option>
+                                        <option value="jj" >Kuwait</option>
+                                        <option value="jj" >Lebanon</option>
+                                        <option value="jj" >Qatar</option>
+                                        <option value="jj" >Saudi Arabia</option>
+                                        <option value="jj" >Other countries</option>                        
+                                    </select>
+                                </div>
+                        
+                                <div id="city5" class="hs">
+                                    <select class="selbox2" onchange="setSelectText('searchSubCate',this)">
+                                        <option selected>국가를 선택하여 주십시오</option>
+                                        <option value="ch" >Algeria</option>
+                                        <option value="ch" >Egypt</option>
+                                        <option value="ch" >Ghana</option>
+                                        <option value="ch" >Moroco</option>
+                                        <option value="ch" >Nigeria</option>
+                                        <option value="ch" >South Africa</option>
+                                        <option value="ch" >Tunisia</option>
+                                        <option value="ch" >Other countries</option>
+                                    </select>
+                                </div>
+                        
+                                <div id="city6" class="hs">
+                                    <select class="selbox2" onchange="setSelectText('searchSubCate',this)">
+                                        <option selected>국가를 선택하여 주십시오</option>
+                                        <option value="de" >Armenia</option>
+                                        <option value="de" >Turkey</option>
+                                        <option value="de" >India</option>
+                                        <option value="de" >Singapore</option>
+                                        <option value="de" >China</option>
+                                        <option value="de" >Hong-Kong</option>
+                                        <option value="de" >Japan</option>
+                                        <option value="de" >South Korea</option>
+                                        <option value="de" >Taiwan</option>
+                                        <option value="de" >Other countries</option>                        
+                                    </select>
+                                </div>
+                        
+                                <div id="city7" class="hs">
+                                    <select class="selbox2" onchange="setSelectText('searchSubCate',this)">
+                                        <option selected>국가를 선택하여 주십시오</option>
+                                        <option value="su" >Australia</option>
+                                        <option value="su" >New Zealnad</option>
+                                        <option value="su" >Other countries</option>
+                                    </select>
+                                </div>                    
+                            </div>  <!-- s2 -->
+                        </div> <!-- rnrrk -->
+                    </div> <!-- sjfq -->
+                        <p class="la1">© 2017 Macerati Korea Ltd. Legal notice 개인정보보호정책 타이어 연비 정보</p>
+                        <p class="la2">※  위 연비는 표준모드에 의한 연비로서 도로상태∙운전방법∙차량적재∙정비상태 및 외기온도에 따라 실주행연비와 차이가 있습니다.</p>  
+                    </div> <!-- wi -->
+                </div> <!-- f2 -->
+            </div>    <!-- f1 -->
+        </footer>
+    </div><!-- wrap -->    
+</body>
+<script>
+    
+
+$(document).ready(function(){
+    $('.slider').bxSlider({
+    auto:true,
+    controls:false, 
+    speed:1500,
+    });
+});    
+
+
+
+$(".model>a").click(function(){
+    var poi = $(".model2").css("display");
+    if(poi == "none"){
+        $(".model2").show(100).animate({left:"0"});
+    }else if(poi == "block"){
+        $(".model2").animate({left:"-100%"});
+        $(".model2").fadeOut(300);
+        $(".model2").slideUp();
+    }
+    return false;
+});
+$(".menu>a").click(function(){
+    var poi = $(".menu2").css("display");
+    if(poi == "none"){
+        $(".menu2").show(100).animate({left:"0"});
+    }else if(poi == "block"){
+        $(".menu2").animate({left:"-100%"});
+        $(".menu2").fadeOut(300);
+        $(".menu2").slideUp();
+    }
+    return false;
+});
+
+$(".model3>a").click(function(){
+    var poi = $(".model4").css("display");
+    if(poi == "none"){
+        $(".model4").show(100).animate({top:"0"});
+    }else if(poi == "block"){
+        $(".model4").animate({top:"-100%"});
+        $(".model4").fadeOut(300);
+        $(".model4").slideDown();
+    }
+    return false;
+});
+$(".menu3>a").click(function(){
+    var poi = $(".menu4").css("display");
+    if(poi == "none"){
+        $(".menu4").show(100).animate({top:"0"});
+    }else if(poi == "block"){
+        $(".menu4").animate({top:"-100%"});
+        $(".menu4").fadeOut(300);
+        $(".menu4").slideDown();
+    }
+    return false;
+});
+
+
+$(".selbox").change(function(){
+    $(".mm").hide(); 
+    $("#"+$(this).val()).show(); 
+});
+
+$(".selbox4").change(function(){
+    $(".mmm").hide();  
+    $("#"+$(this).val()).show(); 
+});
+$(".selbox3").change(function(){
+    $(".m").hide();  
+    $("#"+$(this).val()).show(); 
+});
+
+$("#fnav>ul>li>a").click(function () {
+        var dis = $(this).siblings(".fdepth2");
+        var two = dis.css("display");
+
+        if (two == "none") {
+            $(".fdepth2").slideUp();
+            dis.slideDown(); // dis => display:block;
+            $("#fnav>ul>li>a").removeClass("on");
+            $(this).addClass("on");
+        } else if (two == "block") {
+            dis.slideUp();
+            $(this).removeClass("on");
+        }
+        return false;
+    });
+$('.logi').contents().wrap('<a href="index2.html" class="logi_link"></a>');
+
+$(".selbox1").change(function(){
+    $(".hs").hide(); 
+    $("#"+$(this).val()).show();   
+});
+// 1단메뉴
+$('.mo').click(function(){
+        $('.depth2').toggle();                
+    });
+$('.br').click(function(){
+        $('.depth22').toggle();
+    });  
+$('.ts').click(function(){
+        $('.depth33').toggle();
+    });      
+$('.ne').click(function(){
+        $('.depth44').toggle();
+    });
+$('.td').click(function(){
+        $('.depth55').toggle();
+    });        
+
+// 2단메뉴
+
+$('.ghi').click(function(){
+        $('.depth111').toggle();
+    });
+$('.qua').click(function(){
+        $('.depth222').toggle();
+    });
+$('.lav').click(function(){
+        $('.depth333').toggle();
+    });
+$('.gra').click(function(){
+        $('.depth444').toggle();
+    }); 
+
+
+$("#gnb1>ul>li>a").click(function(){
+    var ii = $(".bg").css("display");
+    if(ii == "none"){
+        $(".bg").show();
+    }else if(ii == "block"){
+        $(".bg").hide();
+    }
+    return false;
+});  
+
+
+$(".model3>a").click(function(){
+    var ii = $(".bg1").css("display");
+    if(ii == "none"){
+        $(".bg1").show(700);
+    }else if(ii == "block"){
+        $(".bg1").hide(400);
+    }
+    return false;
+});   
+$(".menu3>a").click(function(){
+    var ii = $(".bg1").css("display");
+    if(ii == "none"){
+        $(".bg1").show(700);
+    }else if(ii == "block"){
+        $(".bg1").hide(400);
+    }
+    return false;
+});       
+
+</script>
+</html>
